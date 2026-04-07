@@ -1,0 +1,49 @@
+{
+	"robotOffset": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"keymapOption": {
+		"offsetX": 0,
+		"offsetY": 0,
+		"iconSize": 0.33,
+		"width": 462,
+		"height": 255
+	},
+	"statusUpdateInterval": 30,
+	"showLog": true,
+	"useGohstMode": true,
+	"iconSize": 0.8,
+	"createFloorButton": true,
+	"fitAnimationOptions": {
+		"verticesFit": false,
+		"animationTime": 1,
+		"gap": 0.2,
+		"verticalOffset": 0,
+		"verticesFitAllFloor3dViewDirection": "35,-90,0"
+	},
+	"floorExpandOptions": {
+		"useExpand": false,
+		"xRate": 0,
+		"yRate": 2,
+		"zRate": 1,
+		"expandTime": 0.5
+	},
+	"gridOption": {
+		"interval": 5,
+		"segment": 50,
+		"bigLineCount": 5,
+		"rotation": 0,
+		"color": [ 255, 255, 255, 60 ],
+		"bigColor": [ 255, 255, 255, 160 ]
+	},
+	"webservices": [
+		{
+			"name": "main",
+			"url": "https://192.168.10.237:35502/pows/",
+			"userName": "cstsidp",
+			"password": "sidp!@"
+		}
+	]
+}
